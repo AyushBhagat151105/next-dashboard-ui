@@ -1,10 +1,10 @@
 const Table = ({
                    columns,
-                   readerRow,
+                   renderRow,
                    data,
                }: {
     columns: { header: string; accessor: string; className?: string }[];
-    readerRow: (item: any) => React.ReactNode;
+    renderRow: (item: any) => React.ReactNode;
     data: any[];
 }) => {
     return (
@@ -16,7 +16,7 @@ const Table = ({
                 ))}
             </tr>
             </thead>
-            <tbody>{data.map((item) => readerRow(item))}</tbody>
+            <tbody>{data.map((item) => renderRow(item))}</tbody>
         </table>
     );
 };
