@@ -1,4 +1,4 @@
-# Lama Dev School Management Dashboard
+# School-Collage Management Dashboard
 
 ## Getting Started
 
@@ -24,3 +24,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
 - [Next.js](https://nextjs.org/learn)
+
+## [Eraser File for Flow of project](https://app.eraser.io/workspace/ODRhqGVETZc6TxNjoCTr)
+

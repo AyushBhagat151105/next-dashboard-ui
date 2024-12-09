@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { UserButton } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
@@ -28,13 +29,14 @@ const Navbar = () => {
           <span className="text-xs leading-3 font-medium">John Dow</span>
           <span className="text-[10px] text-gray-500 text-right">Admin</span>
         </div>
-        <Image
-          alt=""
-          src="/avatar.png"
-          width={36}
-          height={36}
-          className="rounded-full"
-        />
+        {/*<Image*/}
+        {/*  alt=""*/}
+        {/*  src="/avatar.png"*/}
+        {/*  width={36}*/}
+        {/*  height={36}*/}
+        {/*  className="rounded-full"*/}
+        {/*/>*/}
+        <UserButton />
       </div>
     </div>
   );
